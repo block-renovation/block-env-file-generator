@@ -1,0 +1,17 @@
+{
+  "name": "block-env-file-generator",
+  "version": "1.0.0",
+  "description": "Generate .env file with variables from Parameter Store",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/block-renovation/block-env-file-generator.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/block-renovation/block-env-file-generator/issues"
+  },
+  "homepage": "https://github.com/block-renovation/block-env-file-generator#readme",
+  "bin": {
+    "generate-env-file": "./get_env.rb"
+  }
+}
