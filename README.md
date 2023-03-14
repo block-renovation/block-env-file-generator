@@ -1,6 +1,6 @@
-# Block .en file generator
+# Block .env file generator
 
-Ruby script to generate .env file with variables from AWS Parameter Store.
+Ruby script to generate `.env` file with variables from AWS Parameter Store.
 
 ## How do I use it?
 
