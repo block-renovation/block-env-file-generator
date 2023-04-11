@@ -15,10 +15,11 @@ end
 require 'optparse'
 
 @applications = %w[block-admin block-api block-web]
-@environments = %w[e2e dev rc prod]
+@environments = %w[local e2e dev rc prod]
 @env_files_for_environment = {
   'dev' => '.env.local',
   'e2e' => '.env.test.local',
+  'local' => '.env.local',
   'rc' => '.env.local',
   'prod' => '.env.local'
 }
